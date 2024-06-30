@@ -1,0 +1,24 @@
+/* ProductList.css */
+.quantity-controls .btn {
+    border-radius: 0;
+    min-width: 40px;
+}
+
+.quantity-controls .btn-outline-secondary {
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.quantity-controls .btn-outline-secondary:hover {
+    background-color: #f0f0f0;
+}
+
+.quantity-controls .btn-outline-secondary:focus,
+.quantity-controls .btn-outline-secondary:active {
+    background-color: #e0e0e0;
+    border-color: #ddd;
+}
+
+.quantity-controls .btn-outline-secondary:not(:last-child) {
+    border-right: none;
+}
